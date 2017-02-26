@@ -2,22 +2,22 @@
 int main()
 {
 
-int a,b;
+int a,b,sum;
 
 printf("input two numbers to be added ");
 
 scanf("%d%d",&a,&b);
 
-add(a,b);
+sum=add(a,b);
+
+printf("sum is %d",sum);
 
 return (0);
 
 }
 
 
-void add( int a, int b)
+int add( int a, int b)
 {
- int sum=a+b;
- 
- printf(" sum is %d",sum);
+ return(a+b);
  }
