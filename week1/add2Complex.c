@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 
 struct complex
@@ -54,6 +55,3 @@ ShowComplex(c);
 
 return 0;
 }
-
-
-
